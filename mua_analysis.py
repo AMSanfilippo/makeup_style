@@ -107,11 +107,6 @@ mca.plot_mca(figpath,figname,F,G=G,color=False,color_vec=None,
          annotate_plt=True,labels=labels,X_supp=X_supp,s=s,labels_supp=labels_supp) 
 
 # interpretation: 
-# glam looks are associated with less focus on lips and more focus on eyes, 
-# with a moderate focus on face.
-# natural looks are most closely associated with a focus on eyes, with moderate
-# focus on face and lips.
-# beginner looks are most closely associated with heavy face and lip focus,
-# with minimal eye focus.
-# in general, as the level of intensity applied to one feature increases, 
-# the level of intensity applied to other features also increases.
+# the contrast between glam/natural and beginner looks appears concentrated in
+# the difference between minimal (beginner) and moderate/heavy (natural/glam)
+# eye focus, and heavy (beginner) and minimal/moderate (natural/glam) lip focus
